@@ -57,6 +57,7 @@ body {
 .course-title {
   font-size: 24px;
   font-weight: 800;
+  cursor: pointer;
 
   &:hover {
     color: hsl(47, 88%, 63%);
