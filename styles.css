@@ -9,7 +9,11 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
-  background-color: #f5d04f;
+  background-color: hsl(47, 88%, 63%);
+
+  font-family: 'Figtree', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .logo {
@@ -25,19 +29,53 @@ body {
   background: white;
   border: 1px solid black;
   border-radius: 18px;
+
+  box-shadow: 9px 9px rgba(0, 0, 0, 100%);
 }
 
 .course-label {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   text-align: left;
 
   .course-path {
+    font-weight: 800;
     width: min-content;
-    padding: 4px 6px;
-    background-color: #f5d04f;
+    padding: 6px 8px;
+    background-color: hsl(47, 88%, 63%);
     text-decoration: none;
     border-radius: 5px;
+  }
+  .published-date {
+    font-weight: 500;
+    font-size: 16px;
+    color
+  }
+}
+
+.course-title {
+  font-size: 24px;
+  font-weight: 800;
+
+  &:hover {
+    color: hsl(47, 88%, 63%);
+  }
+}
+
+.course-description {
+  line-height: 1.5;
+  color: hsl(0, 0%, 50%);
+  font-weight: 500;
+}
+
+.course-instructor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+
+  img {
+    width: 32px;
   }
 }
