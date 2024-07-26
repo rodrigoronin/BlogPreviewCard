@@ -16,12 +16,8 @@ body {
   font-style: normal;
 }
 
-.logo {
-  border-radius: 10px;
-}
-
 .course-preview {
-  width: min-content;
+  width: 380px;
   display: flex;
   gap: 20px;
   padding: 20px;
@@ -32,6 +28,12 @@ body {
 
   box-shadow: 9px 9px rgba(0, 0, 0, 100%);
 }
+
+.logo {
+  width: 100%;
+  border-radius: 10px;
+}
+
 
 .course-label {
   display: flex;
@@ -54,7 +56,7 @@ body {
 }
 
 .course-title {
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 800;
   cursor: pointer;
 
@@ -65,7 +67,7 @@ body {
 
 .course-description {
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 1em;
   color: hsl(0, 0%, 50%);
   font-weight: 500;
 }
